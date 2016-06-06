@@ -1,0 +1,1 @@
+f=function(){window.scrollTo(0,document.body.scrollHeight),0==document.getElementsByClassName("no-more-results").length?setTimeout(function(){f()},300):window.scrollTo(0,0)},f();void(0);
